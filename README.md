@@ -4,7 +4,7 @@ A simple Flask-based web chat application that connects to AI models through Ope
 
 ## Features
 
-- 🤖 Chat with GPT-3.5-turbo via OpenRouter
+- 🤖 Chat with DeepSeek R1 (free model) via OpenRouter
 - 💬 Clean, modern chat interface
 - 🎨 Beautiful gradient UI design
 - ⚡ Fast and lightweight
@@ -62,8 +62,16 @@ ChatFlaskOR/
 
 - **Flask** - Web framework
 - **OpenAI Python SDK** - API client
-- **OpenRouter** - AI model gateway
+- **OpenRouter** - AI model gateway (free models available)
 - **python-dotenv** - Environment variable management
+
+## Model
+
+This application uses the free `tngtech/deepseek-r1t2-chimera` model via OpenRouter. 
+
+- **Model Details**: [DeepSeek R1 T2 Chimera](https://openrouter.ai/tngtech/deepseek-r1t2-chimera:free)
+- **OpenRouter Quickstart**: [Integration Guide](https://openrouter.ai/docs/quickstart)
+- **All Models**: [Browse available models](https://openrouter.ai/)
 
 ## License
 
